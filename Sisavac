@@ -1,0 +1,28 @@
+package second;
+
+public class Sisavac {
+    private int dob;
+    private int tezina;
+    
+    protected Sisavac(){
+        dob = 0;
+        tezina = 0;
+    }
+
+    protected int getDob() {
+        return dob;
+    }
+
+    protected void setDob(int dob) {
+        this.dob = dob;
+    }
+
+    protected int getTezina() {
+        return tezina;
+    }
+
+    protected void setTezina(int tezina) {
+        this.tezina = tezina;
+    }
+
+}
