@@ -1,0 +1,22 @@
+package lv5;
+
+public class LV5 {
+
+    public static void main(String[] args) {
+        //za klasu pas
+        //pristup protectedu obicnom metodom
+        Pas nOvcar = new Pas();
+        nOvcar.setParam(5, 10);
+        nOvcar.setVrsta("Njemacki ovcar");
+        nOvcar.ispisPas();
+        
+        //za klasu macka
+        //pristup protectedu sa superom//
+        Macka mjau = new Macka();
+        mjau.setDob(8);
+        mjau.setTezina(10);
+        mjau.setVrsta("Obicna seoska");
+        mjau.ispisMacka();
+    }
+    
+}
