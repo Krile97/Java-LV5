@@ -1,0 +1,28 @@
+package lv5;
+
+public class Macka extends second.Sisavac{
+    private String vrsta;
+
+    public String getVrsta() {
+        return vrsta;
+    }
+
+    public void setVrsta(String vrsta) {
+        this.vrsta = vrsta;
+    }
+    
+    public void ispisMacka(){
+        System.out.println(vrsta);
+        System.out.println(getDob());
+        System.out.println(getTezina());
+    }   
+    
+    public void setDob(int dob){
+        super.setDob(dob);
+    }
+    
+    public void setTezina(int tezina){
+        super.setTezina(tezina);
+    }
+    
+}
