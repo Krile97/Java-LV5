@@ -1,0 +1,25 @@
+package lv5;
+
+public class Pas extends second.Sisavac {
+    private String vrsta;
+
+    public String getVrsta() {
+        return vrsta;
+    }
+
+    public void setVrsta(String vrsta) {
+        this.vrsta = vrsta;
+    }
+    
+    public void ispisPas(){
+        System.out.println(vrsta);
+        System.out.println(getDob());
+        System.out.println(getTezina());
+    }
+    
+    public void setParam(int dob, int tezina){
+        setDob(dob);
+        setTezina(tezina);
+    }
+    
+}
